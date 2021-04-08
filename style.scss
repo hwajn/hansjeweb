@@ -1,0 +1,20 @@
+body {	
+	background: linear-gradient(to bottom, #03fcf4, #fcf003, #c603fc, #03fcfc, #fc03b5 );
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-blend-mode: multiply;
+    
+}
+
+body:before{
+	content:'';
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+	z-index: -1;
+	background: linear-gradient(to top, #03fcf4 50%,#c603fc 50%,#fc03b5, );
+	background-blend-mode:multiply;
+}
+
+
