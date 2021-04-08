@@ -52,7 +52,7 @@ body{
     height: 100%;
     top:0;
     left:0;
-    z-index:1;
+    z-index:100000000;
 }
 .title {
   font-family: elliotts-venus-d-outlined, sans-serif;
